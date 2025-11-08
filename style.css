@@ -1,0 +1,57 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #d8d8d8, #ACB6E5);
+    color: #aa5555;
+    text-align: right;
+    margin: 0;
+    padding: 200px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    justify-content:center;
+    align-items: center;
+}
+
+h1 {
+    grid-column: 1/4;
+    text-align:center;
+    font-size: 4rem;
+    color: #000000;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+h2 {
+    font-size: 3rem;
+    color: #0f6cc9;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+.foto{
+    grid-column: 2 / -1;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+#fotoCambio{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+#boton{
+    background-color: #138b31;   
+    color: white;                
+    padding: 12px 24px;         
+    border: none;               
+    border-radius: 8px;          
+    font-size: 16px;             
+    cursor: pointer;             
+    transition: background-color 0.3s, transform 0.2s; 
+}
+#miBoton:hover {
+    background-color: #2980b9;  
+    transform: scale(1.05);      
+}
+#miBoton:active {
+    background-color: #1f618d;  
+    transform: scale(0.95);     
+}
